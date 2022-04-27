@@ -1,0 +1,11 @@
+export const statusCode200 = 200;
+export const statusCode201 = 201;
+export const statusCode400 = 400;
+export const statusCode401 = 401;
+export const statusCode403 = 403;
+export const statusCode500 = 500;
+export const inValidInput = "Please send all the required fields.";
+export const connectedToDb ="Successfully connected to database";
+export const dbConnectionFailed = "database connection failed. exiting now...";
+export const serviceRunning = "Server running on port";
+export const someErrorOccurred = "Some error occurred.";

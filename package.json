@@ -1,0 +1,35 @@
+{
+  "name": "express-crypto-live-prices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server/server.ts",
+  "scripts": {
+    "start": "set NODE_ENV=dev && nodemon src/server/server.ts",
+    "build": "rm -rf build/ && prettier --write src/server/ && tsc",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/lodash": "^4.14.181",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "^8.13.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@types/morgan": "^1.9.3",
+    "cross-fetch": "^3.1.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "fetch": "^1.1.0",
+    "mongoose": "^6.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  }
+}
